@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM:ital@0;1&family=Urbanist:wght@100;300;500&display=swap');
+
+:root{
+    /* colors */
+    --black: #000;
+    --dark-color: #ad1f53;
+    --primary-color: #fd2d79;
+    --secondary: #ff71a4;
+    --bright-color: #ffb6d0;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--white);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: var(--white);
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: var(--primary-color);
+}
+
+.content{
+    padding: 100px 0px 0px;  
+    width: 100%;
+    display: flex;
+    grid-template-columns: 1.5fr 1fr; 
+}
+
+.left{
+    padding: 500px 320px;
+    background-color: var(--secondary);
+}
+
+.right{
+    background-color: var(--white);
+}
