@@ -70,6 +70,7 @@ nav ul li a:hover{
 
 section{
     margin-top: 50px;
+    scroll-margin-top: 61px;
 }
 
 
@@ -84,7 +85,7 @@ header {
 header::before{
     content: "";
     position: absolute;
-    top: 0;
+    top: 10;
     right: 0;
     z-index: -1;
     opacity: 0.8;
@@ -292,6 +293,10 @@ header .hire-me-btn {
     margin-bottom: 50px;
 }
 
+.contact .icon-contact link{
+    color: white;
+}
+
 .contact .form{
     display: flex;
     flex-direction: column;
@@ -346,7 +351,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: fixed; 
     bottom: 0;
     width: 100%;
 }
