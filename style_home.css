@@ -208,18 +208,34 @@ header .hire-me-btn {
     width: 100%;
     height: 89vh;
     background-color: black;
+    color: white;
+    line-height: 180%;
 }
 
 .resume h1{
     font-size: 50px;
     font-weight: bold;
-    color: white;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
+.resume h2{
+    margin-left: 10%;
+    color: rgb(2, 192, 255);
+}
 
+.resume p{
+    margin-left: 10%;
+}
+
+.resume .li_pro{
+    margin-left: 15%;
+}
+
+.resume .li_under{
+    margin-left: 5%;
+}
 
 /* projects section */
 .projects{
